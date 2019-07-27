@@ -170,7 +170,7 @@ h3, h2 {
 .work {
     position: relative;
     float: left;
-    width: 274px;
+    width: 300px;
     margin: 20px 0 25px;
     overflow: auto;
 }
@@ -182,7 +182,7 @@ h3, h2 {
 .work img {
     width: 100%;
     border: 0 none;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
   
 .work h3 {
@@ -237,12 +237,12 @@ ul {
 
 /* #contact-list {
     border: 1px solid #dddddd;
-    /* justify-content: center; */
-    /* display: inline-block; */
-    /* padding: 10px 0; */
-    /* text-align: center;
+    justify-content: center;
+    display: inline-block;
+    padding: 10px 0;
+    text-align: center;
     margin: auto;
-    width: 50%; */
+    width: 50%;
 } */
 
 /* #contact-form {
