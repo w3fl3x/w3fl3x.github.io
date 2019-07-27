@@ -213,12 +213,41 @@ h3, h2 {
   
 /* contact page */
 
-#contact-list {
-    border: 1px solid #dddddd;
-    text-align: center;
-    margin: auto;
-    width: 50%;
+a,
+a:link,
+a:visited {
+    color: #777777;
+    text-decoration: none;
 }
+
+ul {
+    list-style: none;
+    /* padding-right: 30px; */
+    padding: 0 10px 0 0;
+}
+
+.fa {
+    color: #0781be;
+}
+
+/* #wrapper {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* #contact-list {
+    border: 1px solid #dddddd;
+    /* justify-content: center; */
+    /* display: inline-block; */
+    /* padding: 10px 0; */
+    /* text-align: center;
+    margin: auto;
+    width: 50%; */
+} */
+
+/* #contact-form {
+    flex: right;
+} */
 
 #contact-form ul {
     margin-bottom: 20px;
@@ -265,7 +294,8 @@ input[type=submit]:hover {
     background: #009ada;
 }
 
-nav a:hover {
+nav a:hover,
+a:hover {
     color: #0781be;
 }
 
