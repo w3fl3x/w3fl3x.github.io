@@ -229,25 +229,6 @@ ul {
     color: #0781be;
 }
 
-/* #wrapper {
-    display: flex;
-    flex-direction: row;
-} */
-
-/* #contact-list {
-    border: 1px solid #dddddd;
-    justify-content: center;
-    display: inline-block;
-    padding: 10px 0;
-    text-align: center;
-    margin: auto;
-    width: 50%;
-} */
-
-/* #contact-form {
-    flex: right;
-} */
-
 #contact-form ul {
     margin-bottom: 20px;
     list-style-type: none;
@@ -306,6 +287,26 @@ a:hover {
 img:hover,
 .work:hover {
     opacity: 0.8;
+}
+
+.img-hover-zoom {
+    overflow: hidden;
+}
+
+.fa-file,
+.fa-github,
+.fa-linkedin,
+.fa-envelope,
+.fa-mobile {
+    transition: transform .5s ease;
+}
+
+.fa-file:hover,
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-envelope:hover,
+.fa-mobile:hover {
+    transform: scale(1.5);
 }
 
 @media screen and (max-width: 980px) {
